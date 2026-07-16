@@ -23,3 +23,9 @@ print(output)
 
 output = Utilis.Mathematics.basic.devideFull(18.0, 3)
 print(output)
+
+output = Utilis.Mathematics.kgvggt.kgv(2,3)
+print(output)
+
+output = Utilis.Mathematics.kgvggt.ggt(24,66)
+print(output)
