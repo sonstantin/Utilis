@@ -1,0 +1,4 @@
+print("Welcome to Utilis")
+#Rename me to __init__ and put the folder Mathematics beside me.
+#Than you have to put the other init inside Mathematics and fibinacci and basic beside it.
+from . import Mathematics
