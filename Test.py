@@ -1,7 +1,3 @@
-rint(output)
-
-output = Utilis.Mathematics.periode.resolve_periode(outputP)
-print(output)
 import Utilis
 
 output = Utilis.Mathematics.fibonacci(10.0, 10)
@@ -44,4 +40,5 @@ output = Utilis.Mathematics.periode.resolve_periode(outputP)
 print(output)
 
 output = Utilis.Mathematics.basic.extrapolation(5,2)
+print(output)
 print(output)
