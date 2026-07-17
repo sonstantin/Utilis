@@ -26,6 +26,13 @@ def devideFull(first:float, second:float):
     return {"Devide": first / second,
     "Floor": first // second,
     "Modulo": first % second}
+def extrapolation(first: float, second:int, show: bool = False):
+    num = 1
+    for i in range(second):
+        num *= first
+        if __name__ == "__main__" or show == True:
+            print(num)
+    return num
     
 if __name__ == "__main__":
     list = [1,2,3]
@@ -40,8 +47,8 @@ if __name__ == "__main__":
     value = multiply(list)
     print(value)
     
-    first = 18
-    second = 3
+    first = 1
+    second = 97
     
     value = devide(first, second)
     print(value)
@@ -53,4 +60,7 @@ if __name__ == "__main__":
     print(value)
     
     value = devideFull(first, second)
+    print(value)
+    
+    value = extrapolation(2.5,8)
     print(value)
