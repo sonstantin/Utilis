@@ -29,3 +29,12 @@ print(output)
 
 output = Utilis.Mathematics.kgvggt.ggt(24,66)
 print(output)
+
+outputP = Utilis.Mathematics.periode.seeperiod(1, 3)
+print(outputP)
+
+output = Utilis.Mathematics.periode.seeperiod(1, 4)
+print(output)
+
+output = Utilis.Mathematics.periode.resolve_periode(outputP)
+print(output)
